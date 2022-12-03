@@ -2,8 +2,8 @@ FROM python:latest
 
 LABEL version="1.0.2" 
 
-ADD pythonfile /
+ADD pythoncodeexample /
 
 EXPOSE 80
 
-CMD [ "python","./pythonfile" ]
+CMD [ "python","./pythoncodeexample" ]

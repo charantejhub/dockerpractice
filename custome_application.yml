@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  distro:
+    image: alpine
+    restart: always
+    container_name: Custome_alphine
+    entrypoint: tail -f /dev/null
+  
+  wb:
+   

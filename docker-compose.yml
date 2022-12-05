@@ -24,4 +24,4 @@ wordpress:
       WORDPRESS_DB_USER: wordpressuser
       WORDPRESS_DB_PASSWORD: wordpress 
         
-volumes: db_data
+volumes: db_dat

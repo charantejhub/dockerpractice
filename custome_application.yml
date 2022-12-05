@@ -7,5 +7,3 @@ services:
     container_name: Custome_alphine
     entrypoint: tail -f /dev/null
   
-  wb:
-   
